@@ -1,0 +1,23 @@
+{
+  "name": "blam_portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuickStyles/blam_portfolio.git"
+  },
+  "author": "Brandon Y Lam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QuickStyles/blam_portfolio/issues"
+  },
+  "homepage": "https://github.com/QuickStyles/blam_portfolio#readme",
+  "dependencies": {
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
