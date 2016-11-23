@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory, IndexRoute  } from 'react-router'
-import App from './src/components/app.js';
-import Home from './src/components/home.js';
-import Skills from './src/components/skills.js';
-import Work from './src/components/work.js';
-import Thanks from './src/components/thanks.js';
-import Footer from './src/components/footer.js';
+import App from './src/components/layout/app.js';
+import Home from './src/components/pages/home/home.js';
+import Skills from './src/components/pages/skills/skills.js';
+import Work from './src/components/pages/work/work.js';
+import Thanks from './src/components/pages/thanks/thanks.js';
 
 ReactDOM.render((
   <Router history={browserHistory}>
