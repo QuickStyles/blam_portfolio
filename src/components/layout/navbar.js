@@ -1,43 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router';
-import Home from '../pages/home/home.js';
-import Skills from '../pages/skills/skills.js';
-import Work from '../pages/work/work.js';
-import Thanks from '../pages/thanks/thanks.js';
 
-const navStyle = {
+const Style = {
   div: {
     marginTop: '50px',
     marginLeft: '50px',
-  },
-  ul: {
-    listStyle: 'none',
-    margin: '0',
-    padding: '0',
+    width: '50%',
   },
   li: {
-    float: 'left',
-    width: '60px',
+    padding: '10px',
   },
   a: {
     textDecoration: 'none',
+    color: 'black',
   },
 }
 
+const flexStyle = {
+  ul: {
+    display: 'flex',
+    flexDirection: 'row',
+    listStyle: 'none',
+  },
+}
 export default class NavBar extends React.Component {
   render() {
     return (
-      <div style={navStyle.div}>
-        <ul style={navStyle.ul}>
-          <li style={navStyle.li}><a style={navStyle.a}>Resume | </a></li>
-          <li style={navStyle.li}><Link to='/home' style={navStyle.a}>Home</Link></li>
-          <li style={navStyle.li}><Link to='/skills' style={navStyle.a}>Skills</Link></li>
-          <li style={navStyle.li}><Link to='/work' style={navStyle.a}>Work</Link></li>
-          <li ><Link to='/thanks' style={navStyle.a}>Thanks</Link></li>
+      <div style={Style.div}>
+        <ul style={flexStyle.ul}>
+          <li style={Style.li}><a>Resume</a></li>
+          <li style={Style.li}>« »</li>
+          <li style={Style.li}><Link to='/' style={Style.a}>Home</Link></li>
+          <li style={Style.li}><Link to='/skills' style={Style.a}>Skills</Link></li>
+          <li style={Style.li}><Link to='/work' style={Style.a}>Work</Link></li>
+          <li style={Style.li}><Link to='/thanks' style={Style.a}>Thanks</Link></li>
         </ul>
-        <div>
-          {this.props.children}
-        </div>
       </div>
     );
   }

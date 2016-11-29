@@ -1,5 +1,10 @@
 import React from 'react';
 
+const dialogStyle = {
+  width: '100%',
+  height: '100%',
+}
+
 export default class Introduction extends React.Component {
   render() {
     return (

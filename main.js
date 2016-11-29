@@ -11,7 +11,7 @@ ReactDOM.render((
   <Router history={browserHistory}>
     <Route path= "/" component = {App}>
       <IndexRoute component = {Home}/>
-      <Route path = "home" component={Home}/>
+      <Route path = "/" component={Home}/>
       <Route path = "skills" component={Skills}/>
       <Route path = "work" component={Work}/>
       <Route path = "thanks" component={Thanks}/>
