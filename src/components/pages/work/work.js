@@ -1,5 +1,6 @@
 import React from 'react';
 import Dialog from './dialog.js';
+import Projects from './projects.js';
 
 const divStyle = {
   background: {
@@ -11,12 +12,8 @@ const divStyle = {
     zIndex: '0',
   },
   container: {
-    marginTop: '100px',
-    marginLeft: '100px',
-    position: 'absolute',
+    margin: '100px',
     zIndex: '1',
-    height: '100%',
-    width: '100%',
   },
 }
 
@@ -26,6 +23,7 @@ export default class Work extends React.Component {
       <div style={divStyle.background}>
         <div style={divStyle.container}>
           <div><Dialog /></div>
+          <div><Projects /></div>
         </div>
       </div>
     );
