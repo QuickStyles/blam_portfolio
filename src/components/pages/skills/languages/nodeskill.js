@@ -2,11 +2,12 @@ import React from 'react';
 
 const Style = {
   icon: {
-    color: 'red',
+    color: 'green',
     fontSize: '40px',
   },
   name: {
     fontSize: '40px',
+    fontFamily: 'Courier New',
   },
 }
 

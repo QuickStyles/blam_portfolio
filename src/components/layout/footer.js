@@ -7,7 +7,7 @@ const FlexStyle = {
   div: {
     display: 'flex',
     width: '100%',
-    height: '100px',
+    height: 'inherit',
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',

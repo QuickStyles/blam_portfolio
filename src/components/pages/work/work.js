@@ -12,7 +12,7 @@ const divStyle = {
     zIndex: '0',
   },
   container: {
-    margin: '100px',
+    margin: '50px',
     zIndex: '1',
   },
 }

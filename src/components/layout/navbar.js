@@ -3,7 +3,7 @@ import { Link } from 'react-router';
 
 const Style = {
   div: {
-    marginTop: '50px',
+    marginTop: '25px',
     marginLeft: '50px',
     width: '50%',
   },

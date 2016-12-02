@@ -11,15 +11,15 @@ const Style = {
   },
 }
 
-export default class RubySkill extends React.Component {
+export default class RubyOnRailsSkill extends React.Component {
   render() {
     return(
       <div>
         <span>
-          <i className="icon-ruby" style={Style.icon}></i>
+          <i className="icon-ruby-on-rails-alt" style={Style.icon}></i>
         </span>
         <span style={Style.name}>
-          Ruby
+          Ruby On Rails
         </span>
       </div>
     )
