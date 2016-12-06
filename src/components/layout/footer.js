@@ -1,7 +1,6 @@
 import React from 'react';
-import TwitterIcon from './icons/twitter_square.js';
-import LinkedInIcon from './icons/linkedin_square.js';
-import GithubIcon from './icons/github_square.js';
+import FooterIcon from './icons/footericons.js';
+
 
 const FlexStyle = {
   div: {
@@ -16,11 +15,31 @@ const FlexStyle = {
 
 export default class Footer extends React.Component {
   render() {
+    const icons = {
+      twitter: {
+        href: 'https://twitter.com/brandonywlam',
+        className: 'fa-twitter-square',
+        name: 'fa-twitter-square',
+        size: '4x',
+      },
+      linkedin: {
+        href: 'https://ca.linkedin.com/in/brandonywlam',
+        className: 'fa-linkedin-square',
+        name: 'fa-linkedin-square',
+        size: '4x',
+      },
+      github: {
+        href: 'https://github.com/QuickStyles',
+        className: 'fa-github-square',
+        name: 'fa-github-square',
+        size: '4x',
+      },
+    }
     return (
       <div style={FlexStyle.div}>
-        <TwitterIcon />
-        <LinkedInIcon />
-        <GithubIcon />
+        <FooterIcon icon={icons.twitter}/>
+        <FooterIcon icon={icons.linkedin}/>
+        <FooterIcon icon={icons.github}/>
       </div>
     );
   }

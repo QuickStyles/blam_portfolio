@@ -5,10 +5,6 @@ const Style = {
     color: 'blue',
     fontSize: '40px',
   },
-  name: {
-    fontSize: '40px',
-    fontFamily: 'Courier New',
-  },
 }
 
 export default class PostgreSQLSkill extends React.Component {

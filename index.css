@@ -1,5 +1,4 @@
 .pageSwap-leave {
-
   transform: translate3d(0, 0, 0);
 }
 
@@ -47,4 +46,14 @@
 .reversePageSwap-enter.reversePageSwap-enter-active {
   transform: translate3d(0, 0, 0);
   transition: all ease-out 600ms;
+}
+
+/* SideBar mount and unmount animations*/
+
+.sidebarMount {
+  position: fixed;
+  left: 0;
+  width: 300px;
+  height: 100%;
+  transform: translate3d(100%, 0, 0);
 }

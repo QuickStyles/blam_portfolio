@@ -7,7 +7,6 @@ const Style = {
   },
   name: {
     fontSize: '40px',
-    fontFamily: 'Courier New',
   },
 }
 

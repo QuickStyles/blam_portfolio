@@ -44,7 +44,6 @@ const modalStyle = {
   },
   content: {
     fontSize: '20px',
-    fontFamily: 'Courier New',
     textAlign: 'center',
   },
   blue: {
@@ -52,7 +51,6 @@ const modalStyle = {
   }
 }
 export default class Project extends React.Component {
-
   addLink() {
     if (this.props.project.link !== '') {
       return <div><a href={this.props.project.link}>{this.props.project.name}</a></div>
@@ -69,13 +67,7 @@ export default class Project extends React.Component {
     this.refs.modal.hide();
   };
 
-  callback(event) {
-    console.log(event);
-  };
-
   render() {
-    console.log(this.props);
-    console.log(name);
     return (
       <div>
         <button style={modalStyle.button} onClick={this.showModal.bind(this)}>

@@ -5,10 +5,6 @@ const Style = {
     color: 'red',
     fontSize: '40px',
   },
-  name: {
-    fontSize: '40px',
-    fontFamily: 'Courier New',
-  },
 }
 
 export default class RubySkill extends React.Component {

@@ -22,7 +22,7 @@ export default class Projects extends React.Component {
         'link': 'https://indie-arcade.herokuapp.com/',
         'sourcecode': 'https://github.com/CodeCoreYVR/indie_arcade',
         'technologies': 'Ruby, Ruby On Rails, Javascript, PostgreSQL',
-        'description': 'Group Final Project at CodeCore. I designed the schema and implementd key features noted in the wire frame',
+        'description': 'Group Project built in association with Envisioning Labs and TestTube. I designed the schema and implementd key features noted in the wire frame',
       },
 
       {

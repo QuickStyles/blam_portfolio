@@ -2,20 +2,23 @@ import React from 'react';
 
 const Style = {
   icon: {
-    color: 'red',
+    width: '40px',
+    height: '40px',
+  },
+  name: {
     fontSize: '40px',
   },
 }
 
-export default class RubyOnRailsSkill extends React.Component {
+export default class GitSkill extends React.Component {
   render() {
     return(
       <div>
         <span>
-          <i className="icon-ruby-on-rails-alt" style={Style.icon}></i>
+          <img src="./../../../../../pictures/git-icon.png" style={Style.icon}></img>
         </span>
         <span style={Style.name}>
-          Ruby On Rails
+          git
         </span>
       </div>
     )

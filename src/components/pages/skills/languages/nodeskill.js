@@ -5,10 +5,6 @@ const Style = {
     color: 'green',
     fontSize: '40px',
   },
-  name: {
-    fontSize: '40px',
-    fontFamily: 'Courier New',
-  },
 }
 
 export default class NodeSkill extends React.Component {
